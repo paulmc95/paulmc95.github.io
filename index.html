@@ -1,0 +1,461 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Portafolio Web</title>
+    <link rel="stylesheet" href="">
+    
+</head>
+<body>
+    <!-- MENU ENCABEZADO -->
+    <div class="contenedor-header">
+        <header>
+            <div class="logo">
+                <a href="#">DEVPOL</a>
+            </div>
+            <nav id="nav" class="responsive">
+                <ul>
+                    <li><a href="#inicio" onclick="seleccionar()">Inicio</a></li>
+                    <li><a href="#sobremi" onclick="seleccionar()">SOBRE MI</a></li>
+                    <li><a href="#skills" onclick="seleccionar()">SKILLS</a></li>
+                    <li><a href="#curriculum" onclick="seleccionar()">CURRICULUM</a></li>
+                    <li><a href="#portafolio" onclick="seleccionar()">PORTAFOLIO</a></li>
+                    <li><a href="#contacto" onclick="seleccionar()">CONTACTO</a></li>
+                </ul>
+            </nav>
+            <div class="nav-responsive" onclick="mostrarOcultarMenu()">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </header>
+    </div>
+
+    <!-- SECCION INICIO -->
+    <section id="inicio" class="inicio">
+        <div class="contenido-banner">
+            <div class="contenedor-img">
+                <img src="img/Ing-dev-circle.png" alt="">
+            </div>
+            <div>
+                <h1>Paul Mejía</h1>
+                <h2>Engineer System</h2>
+                <div class="redes">
+                    <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
+                    <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                    <a href="#"><i class="fa-brands fa-github"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION SOBRE MI -->
+    <section id="sobremi" class="sobremi">
+        <div class="contenido-seccion">
+            <h2>Sobre Mí</h2>
+            <p><span>Hola, soy Paul Mejía.</span> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Mollitia id iusto, atque porro, aliquid officiis et possimus nesciunt dolorum beatae eos asperiores ut aspernatur minus voluptas suscipit sint harum veritatis.</p>
+
+            <div class="fila">
+                <!-- Datos Personales -->
+                <div class="col">
+                    <h3>Datos Personales</h3>
+                    <ul>
+                        <li>
+                            <strong>Cumpleaños:</strong>    
+                            23-03-1995
+                        </li>
+                        <li>
+                            <strong>Teléfono:</strong>
+                            955173850
+                        </li>
+                        <li>
+                            <strong>Email:</strong>
+                            paul.mejia.cuellar@gmail.com
+                        </li>
+                        <li>
+                            <strong>Website:</strong>
+                            www.devpol.com
+                        </li>
+                        <li>
+                            <strong>Dirección:</strong>
+                            MZ O LT 3 Santa Rosita, Huascar
+                        </li>
+                        <li>
+                            <strong>Cargo:</strong>
+                            <span>Frontend Developer</span>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Intereses -->
+                <div class="col">
+                    <h3>Intereses</h3>
+                    <div class="contenedor-intereses">
+                        <div class="intereses">
+                            <i class="fa-solid fa-gamepad"></i>
+                            <span>JUEGOS</span>
+                        </div>
+                        <div class="intereses">
+                            <i class="fa-solid fa-headphones"></i>
+                            <span>MUSICA</span>
+                        </div>
+                        <div class="intereses">
+                            <i class="fa-solid fa-person-swimming"></i>
+                            <span>NATACIÓN</span>
+                        </div>                        
+                        <div class="intereses">
+                            <i class="fa-solid fa-microphone"></i>                       
+                            <span>CANTO</span>
+                        </div>
+                        <div class="intereses">
+                            <i class="fa-solid fa-book"></i>                       
+                            <span>LIBROS</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button>
+                Descargar CV
+                <i class="fa-solid fa-download"></i>
+                <span class="overlay"></span>
+            </button>
+
+        </div>
+    </section>
+
+    <!-- SECCION SKILLS -->
+    <section class="skills" id="skills">
+        <div class="contenido-seccion">
+            <h2>Skills</h2>
+            <div class="fila">
+                <!-- Technical Skill -->
+                <div class="col">
+                    <h3>Technical Skills</h3>
+                    <div class="skill">
+                        <span>Javascript</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>35%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>HTML</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>55%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>CSS</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>50%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Angular</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>25%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Professional Skill -->
+                <div class="col">
+                    <h3>Professional Skills</h3>
+                    <div class="skill">
+                        <span>Comunicación asertiva</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>80%</span>
+                            </div>
+                        </div>                        
+                    </div>
+                    <div class="skill">
+                        <span>Trabajo en Equipo</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>75%</span>                            
+                            </div>
+                        </div>                        
+                    </div>
+                    <div class="skill">
+                        <span>Capacidad de superación</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>70%</span>
+                            </div>
+                        </div>                        
+                    </div>
+                    <div class="skill">
+                        <span>Iniciativa</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>90%</span>
+                            </div>
+                        </div>                        
+                    </div>
+                    <div class="skill">
+                        <span>Proactividad</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>80%</span>
+                            </div>
+                        </div>                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION CURRICULUM -->
+    <section id="curriculum" class="curriculum">
+        <div class="contenido-seccion">
+            <h2>Curriculum</h2> 
+            <div class="fila">
+                <div class="col izquierda">
+                    <h3>Educación</h3>
+                    <div class="item izq">
+                        <h4>Ingeniería de Sistemas</h4>
+                        <span class="casa">Universidad Nacional Mayor de San Marcos</span>
+                        <span class="fecha">2017 - 2022</span>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eaque molestiae expedita vero tempore, neque amet, quos quisquam quod repellat nam illo tempora fugit dicta nulla error praesentium esse. Totam, tenetur?</p>
+                        <div class="conectori">
+                            <div class="circuloi">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="item izq">
+                        <h4>Robotica</h4>
+                        <span class="casa">Instituto Tecnologico Von Braun</span>
+                        <span class="fecha">2014 - 2015</span>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quod itaque dicta molestiae adipisci aut, unde laboriosam at excepturi repellendus dolorem vel dolore aperiam, maxime eum molestias voluptates alias eligendi laborum.</p>
+                        <div class="conectori">
+                            <div class="circuloi">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="item izq">
+                        <h4>Tecnico de Ensamblaje</h4>
+                        <span class="casa">Cetpro Gamor</span>
+                        <span class="fecha">2009 - 2010</span>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni earum, accusamus omnis consequuntur ea laborum quisquam dicta odio, animi, nihil esse quidem? Nulla labore voluptate minima necessitatibus doloremque expedita. Nostrum.</p>
+                        <div class="conectori">
+                            <div class="circuloi">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col derecha">
+                    <h3>Experiencia Laboral</h3>
+                    <div class="item der">
+                        <h4>Developer</h4>
+                        <span class="casa">LatamReady</span>
+                        <span class="fecha">Noviembre 2021 - Diciembre 2022</span>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laborum debitis possimus accusamus deleniti nulla molestiae esse a, ab necessitatibus aliquid beatae amet veritatis inventore vel nesciunt tempore voluptatibus quis temporibus!</p>
+                        <div class="conectord">
+                            <div class="circulod">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="item der">
+                        <h4>Técnico Independiente</h4>
+                        <span class="casa">Técnico Independiente Presencial y Remoto</span>
+                        <span class="fecha">Enero 2015 - Actualidad</span>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In odio provident veritatis minus aliquid tempora quae explicabo sequi harum laboriosam, a fugiat eaque? Velit dolorem deserunt aliquid reiciendis, nihil eveniet.</p>
+                        <div class="conectord">
+                            <div class="circulod">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="item der">
+                        <h4>Soporte Técnico</h4>
+                        <span class="casa">Oficina Central de Admisión de UNMSM</span>
+                        <span class="fecha">Junio 2021 - Octubre 2021</span>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Atque autem quia nihil vitae? Voluptatem at accusantium deserunt quaerat debitis dolorem quasi, provident quo hic aliquid. Ullam rerum iusto sequi animi.</p>
+                        <div class="conectord">
+                            <div class="circulod">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="item der">
+                        <h4>Asesor de Atención al Cliente</h4>
+                        <span class="casa">MDY Contact Center & PBO</span>
+                        <span class="fecha">Enero 2018 - Abril 2018</span>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur ab consequuntur harum laudantium quaerat architecto consectetur delectus voluptas dicta, cupiditate non voluptatem quibusdam dolorem quas voluptatibus, quis voluptates sunt? Illo?</p>
+                        <div class="conectord">
+                            <div class="circulod">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="item der">
+                        <h4>Soporte Técnico</h4>
+                        <span class="casa">Centro Comercial Wilson</span>
+                        <span class="fecha">Enero 2015 - Abril 2015</span>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officia qui molestias, earum iste debitis velit? Labore, delectus hic consequuntur dolores officia, corrupti neque repudiandae corporis doloribus temporibus quis, eum vero!</p>
+                        <div class="conectord">
+                            <div class="circulod">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="item der">
+                        <h4>Apoyo de Administración</h4>
+                        <span class="casa">Condominio Los Ficus</span>
+                        <span class="fecha">Agosto 2014 - Junio 2014</span>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Distinctio, modi incidunt accusamus ut et doloremque animi, repudiandae voluptates ipsum possimus asperiores. Sed fugit, exercitationem officia asperiores quasi ducimus natus possimus!</p>
+                        <div class="conectord">
+                            <div class="circulod">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>        
+    </section>
+
+    <!-- SECCION PORTAFOLIO -->
+    <section id="portafolio" class="portfolio">
+        <div class="contenido-seccion">
+            <h2>PORTFOLIO</h2>
+            <div class="galeria">
+                <div class="proyecto">
+                    <img src="img/plantilla/1Pag_Bootstrap.png" alt="">
+                    <div class="overlay">
+                        <h3>Desarrollo en Bootstrap</h3>
+                        <p>Bootstrap</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/plantilla/2MetodologiaBEM.png" alt="">
+                    <div class="overlay">
+                        <h3>Metodologia BEM</h3>
+                        <p>BEM</p>
+                    </div>                    
+                </div>
+                <div class="proyecto">
+                    <img src="img/plantilla/3Formulario-Angular.png" alt="">
+                    <div class="overlay">
+                        <h3>Formulario Angular</h3>
+                        <p>Angular</p>
+                    </div>                    
+                </div>                
+                <div class="proyecto">
+                    <img src="img/plantilla/4JuegoMokepon.png" alt="">
+                    <div class="overlay">
+                        <h3>Juego de Mokepon</h3>
+                        <p>Juego</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/plantilla/5TypescriptExercise.png" alt="">
+                    <div class="overlay">
+                        <h3>Ejercicio con Typescript</h3>
+                        <p>Typescript</p>
+                    </div>                    
+                </div>
+                <div class="proyecto">
+                    <img src="img/plantilla/6Transicion1.png" alt="">
+                    <div class="overlay">
+                        <h3>Transición part 1</h3>
+                        <p>Transicion part 1</p>
+                    </div>                    
+                </div>
+                <div class="proyecto">
+                    <img src="img/plantilla/7Transicion2.png" alt="">
+                    <div class="overlay">
+                        <h3>Transición part 2</h3>
+                        <p>Transición part 2</p>
+                    </div>                    
+                </div>
+                <div class="proyecto">
+                    <img src="img/plantilla/8Animacion1.png" alt="">
+                    <div class="overlay">
+                        <h3>Animación part 1</h3>
+                        <p>Animación part 1</p>
+                    </div>                    
+                </div>
+                <div class="proyecto">
+                    <img src="img/plantilla/9Animacion2.png" alt="">
+                    <div class="overlay">
+                        <h3>Animación part 2</h3>
+                        <p>Animación part 2</p>
+                    </div>                    
+                </div>           
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION CONTACTO -->
+    <section id="contacto" class="contacto">
+        <div class="contenido-seccion">
+            <h2>CONTACTO</h2>
+            <div class="fila">
+                <!-- Formulario -->
+                <div class="col">
+                    <input type="text" placeholder="Tu Nombre">
+                    <input type="text" placeholder="Número Telefónico">
+                    <input type="text" placeholder="Dirección de Correo">
+                    <input type="text" placeholder="Tema">
+                    <textarea name="" id="" cols="30" rows="10" placeholder="Mensaje"></textarea>
+                    <button>
+                        Enviar Mensaje <i class="fa-solid fa-paper-plane"></i>
+                        <div class="overlay">
+                        </div>
+                    </button>
+                </div>
+                <div class="col">
+                    <img src="img/plantilla/ubicacion.png" alt="">
+                    <div class="info">
+                        <ul>
+                            <li>
+                                <i class="fa-solid fa-location-dot"></i>
+                                MZ O LT 3 Santa Rosita, Lima                              
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-mobile-screen"></i>
+                                955173850
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-envelope"></i>
+                                paul.mejia.cuellar@gmail.com
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+        <a href="#inicio" class="arriba">
+            <i class="fa-solid fa-angles-up"></i>
+        </a>
+        <div class="redes">
+            <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
+            <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+            <a href="#"><i class="fa-brands fa-github"></i></a>
+        </div>
+    </footer>
+
+    <!-- Conectar al script.js -->
+    <script src="script.js"></script>
+</body>
+</html>
